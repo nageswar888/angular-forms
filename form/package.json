@@ -1,5 +1,5 @@
 {
-  "name": "form",
+  "name": "forms",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall" : "ng build --output -path form --aot --prod"
+    "postinstall" : "ng build --output -path forms --aot --prod"
   },
   "private": true,
   "dependencies": {
