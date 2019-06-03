@@ -49,7 +49,7 @@ export class RegistrationPageComponent implements OnInit {
     });
   }
 
-  // convenience getter for easy access to form fields
+  // convenience getter for easy access to forms fields
   get f() { return this.registerForm.controls; }
 
   onSubmit() {
@@ -57,7 +57,7 @@ export class RegistrationPageComponent implements OnInit {
     console.log(this.registerForm.value);
     this.submitted = true;
 
-    // stop here if form is invalid
+    // stop here if forms is invalid
     if (this.registerForm.invalid) {
       return;
     }
